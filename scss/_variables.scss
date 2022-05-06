@@ -1,0 +1,35 @@
+* {
+    font-family: "Nunito", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h2 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*----NAV----*/
+$colorBackNav: #e0d8b0;
+$colorLetraNav: white;
+
+/*----BOTONES----*/
+
+$colorBackButton: #becbf5;
+$colorLetraButton: #090909;
+$fontSizeButton: 18px;
+$colorBackHoverB: grey;
+$colorBackActiveB: rgb(36, 30, 30);
+
+/*----CARDS----*/
+$articleBackCard: #ffebc1;
+
+/*---ASIDE---*/
+$colorBackAside: #fcffe7;
+
+/*--FOOTER--*/
+$colorBackFooter: #ce9461;
+$fontSizeButton: 25px;
+
+/*--FORMULARIO--*/
+$colorBackForm: #e0d8b0;
+$colorButtonForm: #ce9461;
