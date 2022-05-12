@@ -10,7 +10,6 @@ h2 {
 
 /*----NAV----*/
 $colorBackNav: #e0d8b0;
-$colorLetraNav: white;
 
 /*----BOTONES----*/
 
@@ -18,18 +17,52 @@ $colorBackButton: #becbf5;
 $colorLetraButton: #090909;
 $fontSizeButtonNav: 18px;
 $colorBackHoverB: grey;
-$colorBackActiveB: rgb(36, 30, 30);
 
 /*----CARDS----*/
 $articleBackCard: #ffebc1;
+
+@mixin card {
+    background-color: pink;
+    margin: 30px 0px 30px 0px;
+    width: 400px;
+}
+
+@mixin img-card {
+    margin: 15px auto 0 auto;
+    max-width: 300px;
+    max-height: 300px;
+}
 
 /*---ASIDE---*/
 $colorBackAside: #fcffe7;
 
 /*--FOOTER--*/
+$redes: (
+    icon-instagram: rgb(216, 54, 81),
+    icon-facebook: rgb(82, 82, 224),
+    icon-whatsapp: rgb(57, 181, 57),
+    icon-twitter: rgb(62, 208, 227),
+);
+
+$span: (
+    color: white,
+    text-align: center,
+);
+
 $colorBackFooter: #ce9461;
 $fontSizeButton: 25px;
 
 /*--FORMULARIO--*/
 $colorBackForm: #e0d8b0;
 $colorButtonForm: #ce9461;
+
+/*--NOSOTROS--*/
+.display {
+    display: flex;
+    align-items: center;
+}
+.mar-font {
+    margin: 40px;
+    font-size: 16px;
+    padding: 40px;
+}

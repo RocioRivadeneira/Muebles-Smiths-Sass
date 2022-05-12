@@ -4,10 +4,12 @@ nav {
  }
  .navbar {
     background-color: $colorBackNav;
-    color: $colorLetraNav;
- 
+    color: white;
     .input-buscador {
        height: 45px;
     }
  }
  
+ .navbar > img{
+    color: white;
+ }

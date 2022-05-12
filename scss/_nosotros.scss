@@ -1,0 +1,30 @@
+.portada-principal {
+    width: auto;
+    .text-principal {
+        margin: 10px;
+        font-size: 20px;
+    }
+}
+
+.one {
+    @extend .display;
+    img {
+        width: 45%;
+    }
+    .text-secundario {
+        @extend .mar-font;
+        background: linear-gradient(white, #e8c7a0, white);
+    }
+}
+.two {
+    @extend .display;
+    flex-direction: row-reverse;
+    img {
+        width: 45%;
+    }
+    .text-secundario {
+        @extend .mar-font;
+        background: linear-gradient(white, #FFE59D, white);
+    }
+}
+
