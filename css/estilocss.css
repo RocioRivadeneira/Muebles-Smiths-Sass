@@ -1,10 +1,11 @@
 * {
   font-family: "Nunito", sans-serif;
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif;
+  /*  outline: 1px solid red; */ }
 
-h2 {
-  margin-top: 5px;
-  text-align: center; }
+h3 {
+  text-align: center;
+  background-color: #82DBD8; }
 
 /*----NAV----*/
 /*----BOTONES----*/
@@ -22,25 +23,21 @@ h2 {
   font-size: 16px;
   padding: 40px; }
 
-nav {
-  background-color: #fcffe7;
-  padding: 10px; }
-
 .navbar {
-  background-color: #e0d8b0;
-  color: white; }
+  background-color: #5F7161;
+  color: black; }
   .navbar .input-buscador {
     height: 45px; }
 
-.navbar > img {
-  color: white; }
+.barra-nav {
+  background-color: #6D8B74; }
 
 .button-nav {
   margin: 10px 15px;
   padding: 8px 16px;
   font-size: 18px;
   border-radius: 0.5em;
-  background: #becbf5;
+  background: #446A46;
   border: 1px solid #e8e8e8;
   transition: all 0.3s;
   box-shadow: 3px 3px 6px #c5c5c5, -3px -3px 6px #ffffff;
@@ -58,12 +55,15 @@ button > a {
 
 /*no encontre la manera de acomodarlo correctamente*/
 .carousel-inner {
-  max-height: 300px; }
+  max-height: 350px; }
+
+.carousel {
+  width: 100% !important; }
 
 article {
-  background-color: #ffebc1; }
+  background-color: #C2FFF9; }
   article .card {
-    background-color: #fde1a5;
+    background-color: #94DAFF;
     margin: 30px 0px 30px 0px;
     width: 400px; }
     article .card img {
@@ -85,28 +85,31 @@ aside {
 
 footer {
   min-height: 60px;
-  background-color: #ce9461; }
+  background-color: #779df7; }
   footer .icon-red {
-    font-size: 25px; }
+    font-size: 30px; }
 
 span {
-  color: white;
+  color: black;
   text-align: center; }
 
 .icon-instagram {
-  color: #d83651; }
+  color: #f25771; }
 
 .icon-facebook {
-  color: #5252e0; }
+  color: #0c0ce6; }
 
 .icon-whatsapp {
-  color: #39b539; }
+  color: #12fe12; }
 
 .icon-twitter {
-  color: #3ed0e3; }
+  color: #37e0f6; }
 
 .carousel-inner {
-  max-height: 300px; }
+  max-height: 350px; }
+
+.carousel {
+  width: 100% !important; }
 
 .formulario {
   display: block; }

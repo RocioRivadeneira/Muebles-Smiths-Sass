@@ -1,15 +1,12 @@
-nav {
-    background-color: #fcffe7;
-    padding: 10px;
- }
- .navbar {
+.navbar {
     background-color: $colorBackNav;
-    color: white;
+    color: black;
+    
     .input-buscador {
-       height: 45px;
+        height: 45px;
     }
- }
- 
- .navbar > img{
-    color: white;
- }
+}
+
+.barra-nav{
+   background-color: #6D8B74;
+}
