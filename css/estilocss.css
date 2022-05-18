@@ -19,9 +19,7 @@ h3 {
   align-items: center; }
 
 .mar-font, .one .text-secundario, .two .text-secundario {
-  margin: 40px;
-  font-size: 16px;
-  padding: 40px; }
+  margin: 40px; }
 
 .navbar {
   background-color: #FFEDDB;
