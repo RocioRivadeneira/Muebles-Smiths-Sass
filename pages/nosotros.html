@@ -13,6 +13,7 @@
             name="keywords"
             content="Familia, Pymes, Muebles, Hogar, Sillas, Madera, Hierro, Artesano"
         />
+        <link rel="icon" type="image/png" href="../images/favicon.png" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -35,140 +36,128 @@
     </head>
 
     <body>
-        <header class="container-fluid navbar-expand-lg">
-            <div class="row">
-                <div class="navbar justify-content-between">
-                    <a class="navbar-brand" href="../index.html">
-                        <img
-                            src="../images/logo.png"
-                            alt=""
-                            width="150"
-                            height="150"
-                            class="d-inline-block align-text-top"
-                        />
-                    </a>
+        <header class="navbar-expand-lg">
+            <div
+                class="navbar d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between"
+            >
+                <a class="navbar-brand" href="../index.html">
+                    <img
+                        src="../images/logo.png"
+                        alt=""
+                        width="150"
+                        height="150"
+                        class="logo m-sm-2"
+                    />
+                </a>
 
-                    <h1 class="animate__animated animate__bounceIn">
-                        Muebles Smith´s
-                    </h1>
+                <h1 class="animate__animated animate__bounceIn">
+                    Muebles Smith´s
+                </h1>
 
-                    <form class="d-flex align-items-center">
-                        <input
-                            class="form-control me-2 input-buscador"
-                            type="search"
-                            placeholder="Buscar.."
-                            aria-label="Search"
-                        />
-                        <button class="button-nav" type="submit">Buscar</button>
-                    </form>
-                </div>
-
-                <nav class="d-flex flex-wrap justify-content-evenly barra-nav">
-                    <a href="../index.html">
-                        <button class="button-nav">
-                            Inicio
-                        </button>
-                    </a>
-
-                    <a href="../pages/galeria.html">
-                    <button class="button-nav">
-                        Galeria
-                    </button>
-                    </a>
-
-                    <a href="../pages/contacto.html"> 
-                    <button class="button-nav">
-                       Contactanos
-                    </button>
-                    </a>
-
-                    <a href="../pages/nosotros.html"> 
-                    <button class="button-nav">
-                       Sobre nosotros
-                    </button>
-                    </a>
-                </nav>
+                <form class="d-flex align-items-center">
+                    <input
+                        class="form-control me-2 input-buscador"
+                        type="search"
+                        placeholder="Buscar.."
+                        aria-label="Search"
+                    />
+                    <button class="button-nav" type="submit">Buscar</button>
+                </form>
             </div>
+
+            <nav class="d-flex flex-wrap justify-content-evenly barra-nav">
+                <a href="../index.html">
+                    <button class="button-nav">Inicio</button>
+                </a>
+
+                <a href="../pages/galeria.html">
+                    <button class="button-nav">Galeria</button>
+                </a>
+
+                <a href="../pages/contacto.html">
+                    <button class="button-nav">Contactanos</button>
+                </a>
+
+                <a href="../pages/nosotros.html">
+                    <button class="button-nav">Sobre nosotros</button>
+                </a>
+            </nav>
         </header>
 
         <!--historia-->
         <main class="nosotros">
-            <h3>Sobre Nosotros:</h3>
+            <h3 class="mb-0">Sobre Nosotros:</h3>
 
             <figure class="portada-principal">
                 <img
-                    src="../images/nosotros/portada.jpg"
-                    class="portada img-fluid"
-                    alt="..."
+                    src="../images/nosotros/portada1.jpg"
+                    class="d-block portada img-fluid"
+                    alt="portada principal"
                 />
-                <figcaption class="text-principal figure-caption text-center">
-                    A caption for the above image Lorem ipsum dolor sit
-                    aconsectetur adipisicing elit. Cum saepe quibusdam autem
-                    necessitatibus magni. Dolores neque natus nihil ut soluta
-                    nemo corrupti, ex ullam perspiciatis quos. Expedita Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                    error sapiente qui accusantiu m nulla quas nam quoratione
-                    minima voluptatibus eveniet eaque, dolorem iste tempora et
-                    simi lique beatae culpa exercitationem! A caption for the
-                    above image Lorem ipsum dolor sit aconsectetu ipsum dolor
-                    sit amet, consectetur adipisicing elit. Modi error sapiente
-                    qui accusantiu m nulla quas nam quoratione minima
-                    voluptatibus eveniet eaque, dolorem iste tempora et simi
-                    lique beatae culpa exercitationem!
+                <figcaption class="text-principal text-center">
+                    Muebles Smith´s comenzó siendo un hobbie, algo hecho con
+                    amor para la familia y amigos. Pero a medida que empezaba a
+                    pasar el tiempo la red de personas se ampliaba más y más,
+                    llegando a buscarnos empresas privadas. Hoy en día estamos
+                    en contacto con nuestros primeros clientes tanto como el
+                    primer dia. Nos gusta saber que el trabajo realizado hace
+                    tanto tiempo sigue intacto y que nos sigan llamando para
+                    nuevos proyectos
                 </figcaption>
             </figure>
 
-            <figure class="one">
+            <figure class="one flex-column flex-sm-row">
                 <img
-                    src="../images/nosotros/carpintero.jpg"
+                    src="../images/nosotros/article.jpg"
                     class="rounded float-start"
-                    alt="..."
+                    alt="nosotros"
                 />
-                <figcaption class="text-secundario float-end">
-                    A caption for the above image Lorem ipsum dolor sit
-                    aconsectetur adipisicing elit. Cum saepe quibusdam autem
-                    necessitatibus magni. Dolores neque natus nihil ut soluta
-                    nemo corrupti, ex ullam perspiciatis quos. Expedita Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                    error sapiente qui accusantiu m nulla quas nam quoratione
-                    minima voluptatibus eveniet eaque, dolorem iste tempora et
-                    simi lique beatae culpa exercitationem!
+                <figcaption class="text-secundario float-end my-2">
+                    Hacemos absolutamente todo a la medida que nos hayan pedido
+                    los clientes entre otras cosas hacemos: Ventanas, ventanas
+                    mosquitero, puertas exteriores, puertas rejas, portones
+                    corredizos, rejas, pérgolas, escaleras caracol, veladores
+                    artesanales, etc. En todos los artículos que ofrecemos
+                    también le damos la instalación de este sin cargo alguno, se
+                    comprueba de que funcione correctamente y estamos atentos a
+                    alguna duda al respecto de este.
                 </figcaption>
             </figure>
 
-            <figure class="two">
+            <figure class="two flex-column flex-sm-row-reverse">
                 <img
-                    src="../images/nosotros/carpintero.jpg"
+                    src="../images/nosotros/article1.jpg"
                     class="rounded float-end"
-                    alt="..."
+                    alt="barra de cocina"
                 />
-                <figcaption class="text-secundario float-start">
-                    A caption for the above image Lorem ipsum dolor sit
-                    aconsectetur adipisicing elit. Cum saepe quibusdam autem
-                    necessitatibus magni. Dolores neque natus nihil ut soluta
-                    nemo corrupti, ex ullam perspiciatis quos. Expedita Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                    error sapiente qui accusantiu m nulla quas nam quoratione
-                    minima voluptatibus eveniet eaque, dolorem iste tempora et
-                    simi lique beatae culpa exercitationem!
+                <figcaption class="text-secundario float-start my-2">
+                    También tenemos un amplio catálogo de muebles de interiores
+                    y exteriores: alacenas, bajo mesadas, juego de comedor tanto
+                    de madera, hierro o mixtos, mesadas, desayunadores,
+                    reposeras de hierro, juego de sillas y mesas para el jardín,
+                    armarios, camas, mesas de maquillaje, parrillas tanto
+                    movibles o totalmente fijas, entre otros. Todos son tratados
+                    con el correspondiente protector tanto para muebles de
+                    interiores como los de exteriores.
                 </figcaption>
             </figure>
 
-            <figure class="one">
+            <figure class="one flex-column flex-sm-row">
                 <img
-                    src="../images/nosotros/carpintero.jpg"
+                    src="../images/nosotros/article2.jpg"
                     class="rounded float-start"
-                    alt="..."
+                    alt="macetero"
                 />
-                <figcaption class="text-secundario float-end">
-                    A caption for the above image Lorem ipsum dolor sit
-                    aconsectetur adipisicing elit. Cum saepe quibusdam autem
-                    necessitatibus magni. Dolores neque natus nihil ut soluta
-                    nemo corrupti, ex ullam perspiciatis quos. Expedita Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                    error sapiente qui accusantiu m nulla quas nam quoratione
-                    minima voluptatibus eveniet eaque, dolorem iste tempora et
-                    simi lique beatae culpa exercitationem!
+                <figcaption class="text-secundario float-end my-2">
+                    Trabajamos decorando ambientes, ya sea el comedor haciendo
+                    algún marco para alguna foto ya sea de gran tamaño o para
+                    una mesita de luz, macetas de vidrio con una linda vista
+                    para el interior de la casa, veladores temáticos, porta
+                    macetas colgantes para darle una vista especial a el
+                    ambiente elegido. Para el jardín hacemos adornos de hierro
+                    con figuras a elección. Escuchamos muy atentamente las ideas
+                    de nuestros clientes por ello también trabajamos reciclando
+                    algunos objetos plásticos para darle una nueva vida
                 </figcaption>
             </figure>
         </main>
@@ -208,8 +197,8 @@
             class="d-flex flex-wrap align-items-center justify-content-center"
         >
             <span class="col-12 col-md-6">
-                Derechos reservados lor sit amet consectetur adipisicing elit.
-                Nostrum, dolor. Ad magnam mini
+                © Derechos Reservados 2022 Muebles Smith´s Derechos de Contenido
+                Reservados.
             </span>
             <div class="d-flex justify-content-around col-12 col-md-6">
                 <a href="#instagram" class="icon-red icon-instagram">

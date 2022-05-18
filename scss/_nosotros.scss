@@ -1,7 +1,11 @@
 .portada-principal {
     width: auto;
+    .portada{
+        height: 500px;
+       
+    }
     .text-principal {
-        margin: 10px;
+        margin: 5px;
         font-size: 20px;
     }
 }

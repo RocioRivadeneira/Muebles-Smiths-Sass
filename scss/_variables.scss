@@ -6,24 +6,24 @@
 
 h3 {
     text-align: center;
-    background-color: #82DBD8;
+    background-color: #EADEDE;
   
 }
 
 /*----NAV----*/
-$colorBackNav: #5F7161;
+$colorBackNav: #FFEDDB;
 
 /*----BOTONES----*/
-$colorBackButton: #446A46;
+$colorBackButton:#EDCDBB ;
 $colorLetraButton: #090909;
 $fontSizeButtonNav: 18px;
 $colorBackHoverB: grey;
 
 /*----CARDS----*/
-$articleBackCard: #C2FFF9;
+$articleBackCard: white;
 
 @mixin card {
-    background-color: #94DAFF;
+    background-color: #eeddc6;
     margin: 30px 0px 30px 0px;
     width: 400px;
 }
@@ -50,11 +50,11 @@ $span: (
     text-align: center,
 );
 
-$colorBackFooter: #779df7;
+$colorBackFooter: #FFEDDB;
 $fontSizeButton: 30px;
 
 /*--FORMULARIO--*/
-$colorBackForm: #e0d8b0;
+$colorBackForm: #f5e0e0;
 $colorButtonForm: #ce9461;
 
 /*--NOSOTROS--*/
