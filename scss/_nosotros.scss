@@ -1,9 +1,6 @@
 .portada-principal {
     width: auto;
-    .portada{
-        height: 500px;
-       
-    }
+
     .text-principal {
         margin: 5px;
         font-size: 20px;
@@ -28,7 +25,6 @@
     }
     .text-secundario {
         @extend .mar-font;
-        background: linear-gradient(white, #FFE59D, white);
+        background: linear-gradient(white, #ffe59d, white);
     }
 }
-

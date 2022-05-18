@@ -125,8 +125,6 @@ span {
 
 .portada-principal {
   width: auto; }
-  .portada-principal .portada {
-    height: 500px; }
   .portada-principal .text-principal {
     margin: 5px;
     font-size: 20px; }
@@ -142,4 +140,4 @@ span {
   .two img {
     width: 45%; }
   .two .text-secundario {
-    background: linear-gradient(white, #FFE59D, white); }
+    background: linear-gradient(white, #ffe59d, white); }
