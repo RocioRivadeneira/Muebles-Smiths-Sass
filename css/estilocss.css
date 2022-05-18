@@ -129,15 +129,13 @@ span {
     margin: 5px;
     font-size: 20px; }
 
-.one img {
-  width: 45%; }
-
-.one .text-secundario {
-  background: linear-gradient(white, #e8c7a0, white); }
+.one {
+  background-image: url("/images/fondo.jpeg"); }
+  .one img {
+    width: 50%; }
 
 .two {
-  flex-direction: row-reverse; }
+  flex-direction: row-reverse;
+  background-image: url("/images/fondo.jpeg"); }
   .two img {
-    width: 45%; }
-  .two .text-secundario {
-    background: linear-gradient(white, #ffe59d, white); }
+    width: 50%; }

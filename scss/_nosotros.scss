@@ -1,3 +1,4 @@
+
 .portada-principal {
     width: auto;
 
@@ -9,22 +10,23 @@
 
 .one {
     @extend .display;
+    background-image: url("/images/fondo.jpeg");
     img {
-        width: 45%;
+        width: 50%;
     }
     .text-secundario {
         @extend .mar-font;
-        background: linear-gradient(white, #e8c7a0, white);
     }
 }
 .two {
     @extend .display;
     flex-direction: row-reverse;
+    background-image: url("/images/fondo.jpeg");
     img {
-        width: 45%;
+        width: 50%;
     }
     .text-secundario {
         @extend .mar-font;
-        background: linear-gradient(white, #ffe59d, white);
+        
     }
 }
