@@ -1,4 +1,13 @@
 .carousel-inner {
-    max-height: 350px;
+    height: 350px;
 }
 
+.carousel-item {
+    height: inherit;
+    position: relative;
+}
+
+.carousel-item img {
+    position: absolute;
+    bottom: 0;
+}

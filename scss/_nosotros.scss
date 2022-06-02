@@ -9,7 +9,7 @@
 
 .one {
     @extend .display;
-    background-image: url("/images/fondo.jpeg");
+      
     img {
         width: 50%;
     }
@@ -20,7 +20,6 @@
 .two {
     @extend .display;
     flex-direction: row-reverse;
-    background-image: url("/images/fondo.jpeg");
     img {
         width: 50%;
     }

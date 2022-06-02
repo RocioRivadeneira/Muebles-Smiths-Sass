@@ -4,9 +4,13 @@ footer {
 
     .icon-red {
         font-size: $fontSizeButton;
+       
     }
 }
-
+footer .icon-red:hover{
+  color: black;
+  
+}
 
   span{
     color:map-get($span, color);
