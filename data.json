@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "imagen": {
+            "src": "../images/galeria/galeria.jpg",
+            "alt": "juego de comedor"
+        },
+        "nombre": "Juego de comedor",
+        "descripcion": "juego de mesa y 4 sillas de hierro modelo romano con 4 almohadones eco cuero talampaya color natural. Varios colores de tapiz",
+        "precio": 60000
+    },
+    {
+        "id": 2,
+        "imagen": {
+            "src": "../images/galeria/galeria1.jpg",
+            "alt": "muebles de habitacion"
+        },
+        "nombre": "Cama con baulera",
+        "descripcion": "Cama Box Base Sommiers Cajones Madera Multifunción. Colores: Madera Clara / Madera Oscura / LaqueadoBlanco.",
+        "precio": 30000
+    },
+    {
+        "id": 3,
+        "imagen": { "src": "../images/galeria/galeria2.jpg", "alt": "parrila" },
+        "nombre": "Parrilla",
+        "descripcion": "Parrilla móvil. Fogón incorporado y leñeroincorporado Pala, atizador de regalo y 2 tablas congrabado personalizado.",
+        "precio": 50000
+    },
+    {
+        "id": 4,
+        "imagen": {
+            "src": "../images/galeria/galeria3.jpg",
+            "alt": "muebles para baño"
+        },
+        "nombre": "Juego de baño",
+        "descripcion": "Asegura durabilidad duradera con construcción de tubo acero. tratamiento cromado para mayor resistencia y fácil instalación y fácil manejo.",
+        "precio": 20000
+    },
+    {
+        "id": 5,
+        "imagen": {
+            "src": "../images/galeria/galeria4.jpg",
+            "alt": "disco artesanal"
+        },
+        "nombre": "Disco Artesanal",
+        "descripcion": "Disco de acero, 3 patas desmontables se pueden usar en la parrilla en un mechero o directo al suelo. Las manijas son de hierro al igual que la tapa.",
+        "precio": 25000
+    },
+    {
+        "id": 6,
+        "imagen": {
+            "src": "../images/galeria/galeria5.jpg",
+            "alt": "porta macetas"
+        },
+        "nombre": "Porta Macetas",
+        "descripcion": " Soporte para macetas colgantes hay disponibles para 6, 5, 4 y 2 macetas. Vienen pintados de blanco o negro. Se pueden hacer de distintas formas artesanales",
+        "precio": 10000
+    }
+]

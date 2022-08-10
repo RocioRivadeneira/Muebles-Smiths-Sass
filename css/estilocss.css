@@ -156,3 +156,20 @@ span {
   flex-direction: row-reverse; }
   .two img {
     width: 50%; }
+
+.button-buy {
+  width: 50%;
+  padding: 8px 10px;
+  margin: 10px auto;
+  border-radius: 0.5em;
+  background: #928a8a;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 3px 3px 6px #c5c5c5, -3px -3px 6px #ffffff;
+  color: black; }
+
+.card a {
+  text-align: center; }
+  .card a :active {
+    background-color: #c5b141;
+    box-shadow: 4px 4px 12px #3b3737, -4px -4px 12px #ffffff; }

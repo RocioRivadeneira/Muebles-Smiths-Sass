@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
             name="description"
-            content="Promociones bancarias, Dias de descuentos, Bancos"
+            content="Galerias de patios internos, patios externos, parrillas y habitaciones"
         />
         <meta
             name="keywords"
-            content="Medios de pago, Tarjetas, Credito, Debito, Muebles, Hogar, Sillas, Madera, Hierro, Artesano"
+            content="Producto, Compras, Muebles, Hogar, Sillas, Madera, Hierro, Artesano"
         />
         <link rel="icon" type="image/png" href="../images/favicon.png" />
         <link
@@ -31,7 +31,7 @@
         />
 
         <link rel="stylesheet" href="../css/estilocss.css" />
-        <title>Medios de pago | Muebles Smith´s</title>
+        <title>Productos | Muebles Smith´s</title>
     </head>
 
     <body>
@@ -54,83 +54,96 @@
                     Muebles Smith´s
                 </h1>
 
-                <form class="d-flex align-items-center">
+                <form class="d-flex align-items-center buscador">
                     <input
                         class="form-control me-2 input-buscador"
                         type="search"
                         placeholder="Buscar.."
                         aria-label="Search"
                     />
-                    <button class="button-nav m-1" type="submit" id="BotonBuscar">Buscar</button>
-                    <button class="button-nav m-1" type="text" id="BotonCarrito">Carrito</button>
+                    <button
+                        class="button-nav m-1"
+                        type="submit"
+                        id="BotonBuscar"
+                    >
+                        Buscar
+                    </button>
+
+                    <button
+                        class="button-nav m-1 carrito"
+                        type="text"
+                        id="BotonCarrito"
+                    >
+                        Carrito
+                    </button>
                 </form>
             </div>
 
             <nav
                 class="d-flex flex-column flex-sm-row flex-wrap justify-content-evenly barra-nav px-3"
             >
-            <a href="../index.html">
-                <button class="button-nav">Inicio</button>
-            </a>
+                <a href="../index.html">
+                    <button class="button-nav">Inicio</button>
+                </a>
 
-            <a href="../pages/galeria.html">
-                <button class="button-nav">Galeria</button>
-            </a>
-            <a href="../pages/producto.html">
-                <button class="button-nav">Productos</button>
-            </a>
-            <a href="../pages/contacto.html">
-                <button class="button-nav">Contactanos</button>
-            </a>
+                <a href="../pages/galeria.html">
+                    <button class="button-nav">Galeria</button>
+                </a>
+                <a href="../pages/producto.html">
+                    <button class="button-nav">Productos</button>
+                </a>
+                <a href="../pages/contacto.html">
+                    <button class="button-nav">Contactanos</button>
+                </a>
 
-            <a href="../pages/nosotros.html">
-                <button class="button-nav">Sobre nosotros</button>
-            </a>
+                <a href="../pages/nosotros.html">
+                    <button class="button-nav">Sobre nosotros</button>
+                </a>
             </nav>
         </header>
 
-        <!--tabla con medios de pago-->
+        <!--producto-->
         <main>
-            <section>
-                <h3 class="mb-0">Medios de pago:</h3>
-
-                <table class="table table-hover table-bancos">
-                    <tr>
-                        <th>Bancos</th>
-                        <th>Dias</th>
-                        <th>Descuento</th>
-                        <th>Tarjeta</th>
-                    </tr>
-
-                    <tr>
-                        <td>BBVA</td>
-                        <td>Martes</td>
-                        <td>15%</td>
-                        <td>Crédito</td>
-                    </tr>
-                    <tr>
-                        <td>Galicia</td>
-                        <td>Viernes</td>
-                        <td>20%</td>
-                        <td>Débito</td>
-                    </tr>
-                    <tr>
-                        <td>Provincia</td>
-                        <td>Lunes</td>
-                        <td>5%</td>
-                        <td>Crédito y débito</td>
-                    </tr>
-                    <tr>
-                        <td>HSBC</td>
-                        <td>Miercoles</td>
-                        <td>5%</td>
-                        <td>Crédito y débito</td>
-                    </tr>
-                </table>
-            </section>
+            <!--   tengo que agregar el ul de carrito de js a html   <ul id="Carrito"></ul> -->
+            <h3 class="mb-0">Productos</h3>
+            <article
+                class="container d-flex flex-wrap justify-content-evenly catalogo"
+                id="productos"
+            ></article>
         </main>
+        <!--aside-->
+        <aside>
+            <div class="d-flex flex-wrap justify-content-evenly">
+                <img
+                    src="../images/bancos/bbva.png"
+                    alt="logo-bbva"
+                    class="bank"
+                />
+                <img
+                    src="../images/bancos/galicia.png"
+                    alt="logo-galicia"
+                    class="bank"
+                />
+                <img
+                    src="../images/bancos/hsbc.png"
+                    alt="logo-hsbc"
+                    class="bank"
+                />
+                <img
+                    src="../images/bancos/prov.png"
+                    alt="logo-bbva"
+                    class="bank"
+                />
+            </div>
+            <div class="mx-auto px-4 col-12 col-sm-9 col-md-6 col-lg-3">
+                <button class="button-nav">
+                    <a href="../pages/mediosdepago.html" class="aside">
+                        Ver todos los medios de pago:
+                    </a>
+                </button>
+            </div>
+        </aside>
         <!--pie de pagina-->
-
         <footer
             class="d-flex flex-wrap align-items-center justify-content-center"
         >
@@ -163,5 +176,6 @@
             src="https://kit.fontawesome.com/d1148bfc86.js"
             crossorigin="anonymous"
         ></script>
+        <script src="/JS/productos.js"></script>
     </body>
 </html>
